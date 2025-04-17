@@ -1,0 +1,22 @@
+{
+	"paths": {
+		"/{{ endpointSignature }}": {
+			"{{ httpVerb }}": {
+				"tags": [
+					"{{ endpointName }}"
+				],
+				"summary": "{{ pathVerb }} {{ endpointName }}",
+				"operationId": "{{ operationId }}",
+				"requestBody": {
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/{{ schemaRefName }}"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
