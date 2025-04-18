@@ -7,5 +7,5 @@ export { getSchemaProps } from './getSchemaProps';
 export { getSchemaRefName } from './getSchemaRefName';
 export { getVerb } from './getVerb';
 export { parser } from './parser';
-export { parseSchemas } from './parseSchemas';
 export { parseSchema } from './parseSchema';
+export { parseSchemas } from './parseSchemas';

@@ -1,4 +1,12 @@
-export const generatePathsElement = ({ endpointName, endpointSignature, httpVerb, operationId, pathParam, pathVerb, schemaRefName }) => {
+export const generatePathsElement = ({
+  endpointName,
+  endpointSignature,
+  httpVerb,
+  operationId,
+  pathParam,
+  pathVerb,
+  schemaRefName,
+}) => {
   if (httpVerb == 'get' || httpVerb == 'delete') {
     return `
 			{

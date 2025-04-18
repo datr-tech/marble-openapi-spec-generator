@@ -1,5 +1,5 @@
 export { generateComponentsElement } from './generateComponentsElement';
-export { generateFromParsedSchemas } from './generateFromParsedSchemas';
 export { generateFromParsedSchema } from './generateFromParsedSchema';
+export { generateFromParsedSchemas } from './generateFromParsedSchemas';
 export { generatePathsElement } from './generatePathsElement';
 export { generator } from './generator';

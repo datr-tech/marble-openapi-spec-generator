@@ -1,1 +1,2 @@
-export const getEndpointSignature = (endpointName, pathParamName) => (pathParamName ? `${endpointName}/:${pathParamName}` : endpointName);
+export const getEndpointSignature = (endpointName, pathParamName) =>
+  pathParamName ? `${endpointName}/:${pathParamName}` : endpointName;
