@@ -1,4 +1,4 @@
-import { httpVerbForms } from '@app-marble-openapi-spec-generator/config';
+import { httpVerbForms } from '@app-mosg/config';
 
 export const getVerb = (schemaName, verbFormType = 'http', verbForms = httpVerbForms) =>
   verbForms.reduce((acc, verbForm) => {
